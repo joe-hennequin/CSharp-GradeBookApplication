@@ -4,17 +4,17 @@ using System.Text;
 
 namespace GradeBook.GradeBooks
 {
-    public class RankedGradeBook:BaseGradeBook
+    public class RankedGradeBook : BaseGradeBook
     {
-        public RankedGradeBook (string name):base(name)
-        {
-            
-        }
-
-        public RankedGradeBook()
+        public RankedGradeBook (string name) : base(name)
         {
             Type = Enums.GradeBookType.Ranked;
         }
+
+        //public RankedGradeBook()
+        //{
+        //    Type = Enums.GradeBookType.Ranked;
+        //}
 
     }
 }
